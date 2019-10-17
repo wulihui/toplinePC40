@@ -5,6 +5,8 @@ import store from './store'
 // 导入 Element-ui
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'// 引入 element-ui 的样式
+// 导入全局样式
+import '@/styles/index.less'
 
 Vue.use(ElementUI)
 
